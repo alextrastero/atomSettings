@@ -1,8 +1,13 @@
+'.editor':
+  'cmd-shift-up': 'editor:move-line-up'
+  'cmd-shift-down': 'editor:move-line-down'
+  'cmd-shift-L': 'tree-view:reveal-active-file'
 '.platform-linux atom-text-editor':
   'ctrl-shift-up': 'editor:move-line-up'
   'ctrl-shift-down': 'editor:move-line-down'
   'ctrl-shift-L': 'tree-view:reveal-active-file'
 'atom-text-editor':
   'ctrl-shift-A': 'emmet:balance-outward'
+  'cmd-shift-A': 'emmet:balance-outward'
 'atom-text-editor[data-grammar="text html erb"]:not([mini])':
   'tab': 'emmet:expand-abbreviation-with-tab'
