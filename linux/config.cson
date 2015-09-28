@@ -1,0 +1,31 @@
+"*":
+  welcome:
+    showOnStartup: false
+  core:
+    projectHome: "/home/alexander/dev/gamma"
+    autoHideMenuBar: false
+    themes: [
+      "nucleus-dark-ui"
+      "one-dark-syntax"
+    ]
+    disabledPackages: [
+      "wrap-guide"
+    ]
+  editor:
+    invisibles: {}
+    scrollPastEnd: true
+    tabType: "soft"
+    zoomFontWhenCtrlScrolling: false
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+  linter: {}
+  "linter-scss-lint":
+    executablePath: "/home/alexander/.rvm/gems/ruby-2.2.2/bin/scss-lint"
+  minimap: {}
+  "one-dark-ui": {}
+  emmet: {}
+  "linter-jshint":
+    executablePath: "/usr/local/bin/jshint"
+  "tree-view":
+    hideVcsIgnoredFiles: true
